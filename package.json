@@ -1,0 +1,15 @@
+{
+  "name": "blue-button-meta",
+  "version": "0.0.0",
+  "description": "Metadata about Blue Button format (CCDA) internal structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bluebutton",
+    "ccda"
+  ],
+  "author": "Dmitry Kachaev <dmitry.kachaev@gmail.com> (http://github.com/kachok)",
+  "license": "MIT"
+}
