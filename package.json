@@ -1,6 +1,6 @@
 {
   "name": "blue-button-meta",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Metadata about Blue Button format (CCDA) internal structures",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,19 @@
     "ccda"
   ],
   "author": "Dmitry Kachaev <dmitry.kachaev@gmail.com> (http://github.com/kachok)",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amida-tech/blue-button-meta.git"
+  },
+  "keywords": [
+    "bluebutton", "metadata", "ccda"
+  ],
+  "bugs": {
+    "url": "https://github.com/amida-tech/blue-button-meta/issues"
+  },
+  "homepage": "https://github.com/amida-tech/blue-button-meta"
 }
