@@ -5,7 +5,7 @@ Metadata about Blue Button format (CCDA) internal structures
 
 ##Usage
 
-''' javascript
+``` javascript
 var CCDA = require("blue-button-meta").CCDA;
 
 //CCDA Document OID
@@ -24,4 +24,4 @@ console.log(CCDA.statements);
 console.log(CCDA.constraints.templates);
 console.log(CCDA.constraints.sections);
 
-'''
+```
