@@ -1,7 +1,7 @@
 var expect = require('chai').expect;
 var assert = require('chai').assert;
 
-var bbm = require("./index.js")
+var bbm = require("./index.js");
 var ccda = bbm.CCDA;
 
 describe('blue-button-meta.js test', function(){
