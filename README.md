@@ -1,12 +1,13 @@
 blue-button-meta
 ================
 
-Metadata about Blue Button format (CCDA) internal structures
+Metadata about Blue Button format internal structures
 
 ##Usage
 
 ``` javascript
-var CCDA = require("blue-button-meta").CCDA;
+var bbm = require("blue-button-meta");
+var CCDA = bbm.CCDA;
 
 //CCDA Document OID
 console.log(CCDA.document.templateId);
@@ -24,4 +25,6 @@ console.log(CCDA.statements);
 console.log(CCDA.constraints.templates);
 console.log(CCDA.constraints.sections);
 
+//list of supported master health record sections
+console.log(bbm.supported_sections);
 ```
