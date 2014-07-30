@@ -3,6 +3,11 @@ blue-button-meta
 
 Metadata about Blue Button format internal structures
 
+[![NPM](https://nodei.co/npm/blue-button-meta.png)](https://nodei.co/npm/blue-button-meta/)
+
+![Build Status](https://travis-ci.org/amida-tech/blue-button-meta.svg)](https://travis-ci.org/amida-tech/blue-button-meta)
+[![Coverage Status](https://coveralls.io/repos/amida-tech/blue-button-meta/badge.png)](https://coveralls.io/r/amida-tech/blue-button-meta)
+
 ##Usage
 
 ``` javascript
