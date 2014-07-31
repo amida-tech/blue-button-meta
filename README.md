@@ -1,12 +1,18 @@
 blue-button-meta
 ================
 
-Metadata about Blue Button format (CCDA) internal structures
+Metadata about Blue Button format internal structures
+
+[![NPM](https://nodei.co/npm/blue-button-meta.png)](https://nodei.co/npm/blue-button-meta/)
+
+[![Build Status](https://travis-ci.org/amida-tech/blue-button-meta.svg)](https://travis-ci.org/amida-tech/blue-button-meta)
+[![Coverage Status](https://coveralls.io/repos/amida-tech/blue-button-meta/badge.png)](https://coveralls.io/r/amida-tech/blue-button-meta)
 
 ##Usage
 
 ``` javascript
-var CCDA = require("blue-button-meta").CCDA;
+var bbm = require("blue-button-meta");
+var CCDA = bbm.CCDA;
 
 //CCDA Document OID
 console.log(CCDA.document.templateId);
@@ -24,4 +30,6 @@ console.log(CCDA.statements);
 console.log(CCDA.constraints.templates);
 console.log(CCDA.constraints.sections);
 
+//list of supported master health record sections
+console.log(bbm.supported_sections);
 ```
