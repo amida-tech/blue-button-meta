@@ -18,8 +18,8 @@ describe('blue-button-meta.js test', function(){
       expect(Object.keys(ccda.statements)).to.have.length(76);
     });
 
-    it('10 supported sections', function(){
-      expect(Object.keys(bbm.supported_sections)).to.have.length(10);
+    it('12 supported sections', function(){
+      expect(Object.keys(bbm.supported_sections)).to.have.length(12);
     });
 
 });
