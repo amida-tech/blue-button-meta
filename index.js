@@ -4,6 +4,20 @@ var CCDA = require("./lib/CCDA/index.js");
 var meta = {};
 meta.CCDA = CCDA;
 
-meta.supported_sections = ['allergies', 'procedures', 'immunizations', 'medications', 'encounters', 'vitals', 'results', 'social_history', 'demographics', 'problems', 'insurance', 'claims'];
+meta.supported_sections = [
+    'allergies',
+    'procedures',
+    'immunizations',
+    'medications',
+    'encounters',
+    'vitals',
+    'results',
+    'social_history',
+    'demographics',
+    'problems',
+    'insurance',
+    'claims',
+    'plan_of_care'
+];
 
 module.exports = exports = meta;
