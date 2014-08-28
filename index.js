@@ -18,7 +18,8 @@ meta.supported_sections = [
     'insurance',
     'claims',
     'plan_of_care',
-    'payers'
+    'payers',
+    'providers'
 ];
 
 module.exports = exports = meta;
