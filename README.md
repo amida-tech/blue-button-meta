@@ -33,3 +33,12 @@ console.log(CCDA.constraints.sections);
 //list of supported master health record sections
 console.log(bbm.supported_sections);
 ```
+
+## Release Notes
+
+See release notes [here] (./RELEASENOTES.md)
+
+## License
+
+Licensed under [Apache 2.0](./LICENSE)
+
