@@ -33,3 +33,8 @@ console.log(CCDA.constraints.sections);
 //list of supported master health record sections
 console.log(bbm.supported_sections);
 ```
+
+###Releases
+
+v1.1.0 September 2, 2014
+-  Added new code systems and entries
