@@ -34,7 +34,11 @@ console.log(CCDA.constraints.sections);
 console.log(bbm.supported_sections);
 ```
 
-###Releases
+## Release Notes
 
-v1.1.0 September 2, 2014
--  Added new code systems and entries
+See release notes [here] (./RELEASENOTES.md)
+
+## License
+
+Licensed under [Apache 2.0](./LICENSE)
+
