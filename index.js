@@ -22,6 +22,6 @@ meta.supported_sections = [
     'providers'
 ];
 
-meta.code_systems = require("./lib/codeSystems");
+meta.code_systems = require("./lib/code-systems");
 
 module.exports = exports = meta;
