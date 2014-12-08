@@ -10,6 +10,7 @@ Metadata about Blue Button format internal structures
 
 ##Usage
 
+Various metadata is directly available
 ``` javascript
 var bbm = require("blue-button-meta");
 var CCDA = bbm.CCDA;
@@ -36,7 +37,7 @@ console.log(bbm.supported_sections);
 
 ## Release Notes
 
-See release notes [here] (./RELEASENOTES.md)
+See release notes [here](./RELEASENOTES.md)
 
 ## License
 
