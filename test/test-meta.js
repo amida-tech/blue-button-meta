@@ -7,8 +7,7 @@ var expect = chai.expect;
 
 var ccda = bbm.CCDA;
 
-describe('blue-button-meta.js test', function () {
-
+describe('directly available metadata', function () {
     it('9 templates', function () {
         expect(Object.keys(ccda.templates)).to.have.length(9);
     });

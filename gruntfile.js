@@ -5,8 +5,9 @@
 module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-jsbeautifier');
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-mocha-test');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-mocha-test');
+    grunt.loadNpmTasks('grunt-shell');
 
     grunt.initConfig({
         alljsfiles: ['lib/**/*.js', 'test/*.js', 'gruntfile.js', 'package.json', 'index.js'],
@@ -66,11 +67,17 @@ module.exports = function (grunt) {
                 },
                 src: ['test/*.js']
             }
+        },
+        shell: {
+            run_istanbul: {
+                command: "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec --recursive"
+            }
         }
     });
 
     grunt.registerTask('beautify', ['jsbeautifier:beautify']);
     grunt.registerTask('mocha', ['mochaTest']);
+    grunt.registerTask('coverage', ['shell:run_istanbul']);
     grunt.registerTask('default', ['beautify', 'jshint', 'mocha']);
 
     // Print a timestamp (useful for when watching)
