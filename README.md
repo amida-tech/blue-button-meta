@@ -52,15 +52,15 @@ console.log(csGender.displayNameCode('Female')); // 'F'
 ```
 For a ValueSets similar methods are available
 ``` javascript
-	var csPS = code_systems.find('2.16.840.1.113883.3.88.12.3221.6.8');
-	console.log(csPS.name()); // "Problem Severity"
+var csPS = code_systems.find('2.16.840.1.113883.3.88.12.3221.6.8');
+console.log(csPS.name()); // "Problem Severity"
 
-	console.log(csPS.codeDisplayName('255604002')); // 'Mild';
-	console.log(csPS.displayNameCode('Mild'));      // '255604002';
+console.log(csPS.codeDisplayName('255604002')); // 'Mild';
+console.log(csPS.displayNameCode('Mild'));      // '255604002';
 ```
 In addition the parent code system is available
 ``` javascript
-var id = cs.systemId();
+var id = csPS.systemId();
 console.log(id.codeSystem);     // '2.16.840.1.113883.6.96'
 console.log(id.codeSystemName); // 'SNOMED CT'
 ```
