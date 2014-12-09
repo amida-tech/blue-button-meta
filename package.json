@@ -1,40 +1,39 @@
 {
-  "name": "blue-button-meta",
-  "version": "1.3.0-beta.8",
-  "description": "Metadata about Blue Button format (CCDA) internal structures",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "bluebutton",
-    "metadata",
-    "ccda"
-  ],
-  "author": "Dmitry Kachaev <dmitry.kachaev@gmail.com> (http://github.com/kachok)",
-  "license": "Apache-2.0",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/amida-tech/blue-button-meta.git"
-  },
-  "bugs": {
-    "url": "https://github.com/amida-tech/blue-button-meta/issues"
-  },
-  "homepage": "https://github.com/amida-tech/blue-button-meta",
-  "devDependencies": {
-      "grunt": "0.4.x",
-      "grunt-contrib-jshint": "0.8.x",
-      "grunt-contrib-watch": "0.6.x",
-      "grunt-mocha-test": "0.10.x",
-      "grunt-coveralls": "*",
-      "grunt-istanbul-coverage": "*",
-      "coveralls": "~2.10.0",
-      "mocha-lcov-reporter": "0.0.1",
-      "should": "3.1.x",
-      "mocha": "1.17.x",
-      "chai": "1.8.x"
-  }
+    "name": "blue-button-meta",
+    "version": "1.3.0-beta.8",
+    "description": "Metadata about Blue Button format (CCDA) internal structures",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "bluebutton",
+        "metadata",
+        "ccda"
+    ],
+    "author": "Dmitry Kachaev <dmitry.kachaev@gmail.com> (http://github.com/kachok)",
+    "license": "Apache-2.0",
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amida-tech/blue-button-meta.git"
+    },
+    "bugs": {
+        "url": "https://github.com/amida-tech/blue-button-meta/issues"
+    },
+    "homepage": "https://github.com/amida-tech/blue-button-meta",
+    "devDependencies": {
+        "chai": "^1.8.1",
+        "coveralls": "^2.10.0",
+        "grunt": "^0.4.5",
+        "grunt-contrib-jshint": "^0.8.0",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-jsbeautifier": "^0.2.7",
+        "grunt-mocha-test": "^0.10.x",
+        "grunt-shell": "^1.1.1",
+        "mocha": "^1.17.1",
+        "mocha-lcov-reporter": "^0.0.1"
+    }
 }
