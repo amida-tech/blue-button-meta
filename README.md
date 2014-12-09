@@ -35,6 +35,36 @@ console.log(CCDA.constraints.sections);
 console.log(bbm.supported_sections);
 ```
 
+Code system oid to name and name to oid maps are available
+``` javascript
+var code_systems = bbm.code_systems;
+
+var csGender = code_systems.find('2.16.840.1.113883.5.1');
+console.log(csGender.name()); // "HL7 AdministrativeGender"
+
+var oid = code_systems.findFromName("HL7 AdministrativeGender");
+console.log(oid); // '2.16.840.1.113883.5.1'
+```
+For a subset of smaller code systems code to display name and display name to code methods are available
+``` javascript
+console.log(csGender.codeDisplayName('F'));      // 'Female'
+console.log(csGender.displayNameCode('Female')); // 'F'
+```
+For a ValueSets similar methods are available
+``` javascript
+	var csPS = code_systems.find('2.16.840.1.113883.3.88.12.3221.6.8');
+	console.log(csPS.name()); // "Problem Severity"
+
+	console.log(csPS.codeDisplayName('255604002')); // 'Mild';
+	console.log(csPS.displayNameCode('Mild'));      // '255604002';
+```
+In addition the parent code system is available
+``` javascript
+var id = cs.systemId();
+console.log(id.codeSystem);     // '2.16.840.1.113883.6.96'
+console.log(id.codeSystemName); // 'SNOMED CT'
+```
+
 ## Release Notes
 
 See release notes [here](./RELEASENOTES.md)
