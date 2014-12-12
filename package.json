@@ -1,6 +1,6 @@
 {
     "name": "blue-button-meta",
-    "version": "1.3.0-beta.8",
+    "version": "1.3.0",
     "description": "Metadata about Blue Button format (CCDA) internal structures",
     "main": "index.js",
     "scripts": {
@@ -25,15 +25,15 @@
     },
     "homepage": "https://github.com/amida-tech/blue-button-meta",
     "devDependencies": {
-        "chai": "^1.8.1",
-        "coveralls": "^2.10.0",
-        "grunt": "^0.4.5",
-        "grunt-contrib-jshint": "^0.8.0",
-        "grunt-contrib-watch": "^0.6.1",
-        "grunt-jsbeautifier": "^0.2.7",
-        "grunt-mocha-test": "^0.10.x",
-        "grunt-shell": "^1.1.1",
-        "mocha": "^1.17.1",
-        "mocha-lcov-reporter": "^0.0.1"
+        "chai": "~1.8.1",
+        "coveralls": "~2.10.0",
+        "grunt": "~0.4.5",
+        "grunt-contrib-jshint": "~0.8.0",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-jsbeautifier": "~0.2.7",
+        "grunt-mocha-test": "~0.10.x",
+        "grunt-shell": "~1.1.1",
+        "mocha": "~1.17.1",
+        "mocha-lcov-reporter": "~0.0.1"
     }
 }
