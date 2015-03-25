@@ -1,5 +1,9 @@
 # blue-button-meta.js Release Notes
 
+# v.1.5.0 - TBD
+- Added code 2186-5 to Race and Ethnicity
+- Added Confidentiality Code
+
 # v.1.3.0 - December 12, 2014
 - Moved oids.js here from blue-button repo.
 - An API methods are added to get information from oids.js
