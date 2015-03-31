@@ -3,6 +3,7 @@
 # v.1.5.0 - TBD
 - Added code 2186-5 to Race and Ethnicity
 - Added Confidentiality Code
+- Added code table for Marital Status
 
 # v.1.3.0 - December 12, 2014
 - Moved oids.js here from blue-button repo.
