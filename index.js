@@ -19,7 +19,8 @@ meta.supported_sections = [
     'claims',
     'plan_of_care',
     'payers',
-    'providers'
+    'providers',
+    'organizations'
 ];
 
 meta.code_systems = require("./lib/code-systems");
