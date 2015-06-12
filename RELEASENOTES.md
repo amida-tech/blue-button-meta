@@ -1,9 +1,11 @@
 # blue-button-meta.js Release Notes
 
-# v.1.5.0 - TBD
+# v.1.5.0 - June 12, 2015
 - Added code 2186-5 to Race and Ethnicity
 - Added Confidentiality Code
 - Added code table for Marital Status
+- Organizations added
+- Additional OIDs
 
 # v.1.3.0 - December 12, 2014
 - Moved oids.js here from blue-button repo.
