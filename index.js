@@ -20,7 +20,9 @@ meta.supported_sections = [
     'plan_of_care',
     'payers',
     'providers',
-    'organizations'
+    'organizations',
+    'reason_for_referral',
+    'hospital_discharge_instructions'
 ];
 
 meta.code_systems = require("./lib/code-systems");

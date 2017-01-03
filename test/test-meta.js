@@ -21,6 +21,6 @@ describe('directly available metadata', function () {
     });
 
     it('15 supported sections', function () {
-        expect(Object.keys(bbm.supported_sections)).to.have.length(16);
+        expect(Object.keys(bbm.supported_sections)).to.have.length(18);
     });
 });
