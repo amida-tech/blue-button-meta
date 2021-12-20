@@ -1,4 +1,4 @@
-blue-button-meta
+Blue Button Meta
 ================
 
 Metadata about Blue Button format internal structures
@@ -8,7 +8,26 @@ Metadata about Blue Button format internal structures
 [![Build Status](https://travis-ci.org/amida-tech/blue-button-meta.svg)](https://travis-ci.org/amida-tech/blue-button-meta)
 [![Coverage Status](https://coveralls.io/repos/amida-tech/blue-button-meta/badge.png)](https://coveralls.io/r/amida-tech/blue-button-meta)
 
-##Usage
+## Quick up and running quide
+
+### Prerequisites
+
+- Node.js (v0.10+) and NPM
+- Grunt.js
+
+```sh
+# Install dependencies
+npm i
+
+# Install grunt
+npm i -g grunt
+
+# Test
+grunt
+
+```
+
+## Usage
 
 Various metadata is directly available
 ``` javascript

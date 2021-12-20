@@ -1,5 +1,11 @@
 # blue-button-meta.js Release Notes
 
+# v.1.7.1 - December 20, 2021
+- Security fixes to dev dependencies
+
+# v.1.7.0 - January 2, 2017
+- Added 'reason_for_referral' and 'hospital_discharge_instructions' sections to meta
+
 # v.1.5.0 - June 12, 2015
 - Added code 2186-5 to Race and Ethnicity
 - Added Confidentiality Code
@@ -22,10 +28,10 @@ This is minor release of blue-button-meta.js library.
 This is the initial release of blue-button-meta.js library.
 
 - Added subset of metadata about CCDA format
-	- Templates
-	- Sections
-	- Statements
-	- Constraints
+  - Templates
+  - Sections
+  - Statements
+  - Constraints
 - List of sections for downstream support in blue-button.js library
 - Frequently used lookups for OIDs, and other constants from variety of vocabularies used in CCDA parsing/generation
 - Library is used in downstream packages such as blue-button/match/record.js
