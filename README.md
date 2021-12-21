@@ -8,7 +8,7 @@ Metadata about Blue Button format internal structures
 [![Build Status](https://travis-ci.org/amida-tech/blue-button-meta.svg)](https://travis-ci.org/amida-tech/blue-button-meta)
 [![Coverage Status](https://coveralls.io/repos/amida-tech/blue-button-meta/badge.png)](https://coveralls.io/r/amida-tech/blue-button-meta)
 
-## Quick up and running quide
+## Quick up and running guide
 
 ### Prerequisites
 
