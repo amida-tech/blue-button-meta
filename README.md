@@ -12,7 +12,7 @@ Metadata about Blue Button format internal structures
 
 ### Prerequisites
 
-- Node.js (v0.10+) and NPM
+- Node.js (v14.19+) and NPM
 - Grunt.js
 
 ```sh
