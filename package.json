@@ -1,6 +1,6 @@
 {
   "name": "@amida-tech/blue-button-meta",
-  "version": "1.7.4",
+  "version": "1.7.5",
   "description": "Metadata about Blue Button format (CCDA) internal structures",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,7 @@
     "ccda"
   ],
   "author": "Dmitry Kachaev <dmitry.kachaev@gmail.com> (http://github.com/kachok)",
-  "contributors": [
-    {
+  "contributors": [{
       "name": "Matt Martz",
       "email": "matt.martz@gmail.com"
     },
@@ -28,7 +27,7 @@
   ],
   "license": "Apache-2.0",
   "engines": {
-    "node": ">= 14.19.3"
+    "node": ">= 18.20.0"
   },
   "repository": {
     "type": "git",
@@ -39,12 +38,12 @@
   },
   "homepage": "https://github.com/amida-tech/blue-button-meta",
   "devDependencies": {
-    "grunt": "^1.5.3",
-    "grunt-contrib-connect": "^3.0.0",
+    "grunt": "^1.6.1",
+    "grunt-contrib-connect": "^4.0.0",
     "grunt-contrib-jshint": "^3.2.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-jsbeautifier": "^0.2.13",
     "grunt-run": "^0.8.1",
-    "jest": "^29.3.1"
+    "jest": "^29.7.0"
   }
 }
