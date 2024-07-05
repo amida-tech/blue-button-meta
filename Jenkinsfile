@@ -1,9 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'node:18.20.1-alpine3.19'
-    }
-  }
+  agent { label 'NodeJsAgent'}
   stages {
     stage('Sanity Check') {
       steps {
