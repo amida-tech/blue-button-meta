@@ -14,7 +14,7 @@ pipeline {
       tools { nodejs "Node18" }
       steps {
         echo 'Testing...'
-        sh 'npm test'
+        sh 'npx jest'
       }
     }
     stage('Test on Node v20') {
@@ -22,7 +22,7 @@ pipeline {
       tools { nodejs "Node20" }
       steps {
         echo 'Testing...'
-        sh 'npm test'
+        sh 'npx jest'
       }
     }
     stage('Test on Node v22') {
@@ -30,7 +30,7 @@ pipeline {
       tools { nodejs "Node22" }
       steps {
         echo 'Testing...'
-        sh 'npm test'
+        sh 'npx jest'
       }
     }
   }
