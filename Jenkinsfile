@@ -11,11 +11,11 @@ pipeline {
     stage('Test on Node v18') {
       steps {
         echo 'Testing...'
-        sh 'npx jest'
+        sh 'npx jest --coverage'
         recordCoverage name: 'Coverage Report: Blue Button Meta on node.js v18', id: 'bb-meta', qualityGates: [
             [criticality: 'ERROR', integerThreshold: 80, metric: 'LINE', threshold: 80.0]
           ], skipPublishingChecks: true, tools: [
-            [parser: 'COBERTURA', pattern: 'coverage/cobertura-coverage.xml']
+            [parser: 'COBERTURA', pattern: 'coverage/clover.xml']
           ]
       }
     }
