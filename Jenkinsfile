@@ -15,14 +15,9 @@ pipeline {
       steps {
         echo 'Testing...'
         sh 'npx jest'
-        recordCoverage 
-          name: 'Coverage Report: Blue Button Meta on node.js v18', 
-          id: 'bb-meta', 
-          qualityGates: [
+        recordCoverage name: 'Coverage Report: Blue Button Meta on node.js v18', id: 'bb-meta', qualityGates: [
             [criticality: 'ERROR', integerThreshold: 80, metric: 'LINE', threshold: 80.0]
-          ], 
-          skipPublishingChecks: true, 
-          tools: [
+          ], skipPublishingChecks: true, tools: [
             [parser: 'COBERTURA', pattern: 'coverage/cobertura-coverage-node18.xml']
           ]
       }
